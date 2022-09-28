@@ -1,25 +1,42 @@
 ---
+
 title: Eratosthenes筛法MPI优化
+
 date: 2022-09-28 16:54:00 +0800
+
 categories: [编程]
-tags: [并行计算]
+
+tags: [并行计算] [算法]
+
 pin: true
+
 author: YunHe3
 
+
+
 toc: true
+
 comments: true
+
 typora-root-url: ../../YunHe3.github.io
+
 math: false
+
 mermaid: true
 
+
+
 image:
+
 ---
+
+
 
 最近在写mit6s081的第一个lab，其中有一道题要求使用fork和pipe来实现并行版本的埃拉托斯特尼素数筛法，其中对于pipe的管理颇有意思，故对该程序作一些分析
 
 先po我的代码
 
-```
+```c
 #define INTBYTE 4
 
 int prime(int *p); /* p stand for a pair of pipe */
@@ -95,3 +112,6 @@ prime(int *p)
 	}
 }
 ```
+
+# 
+
