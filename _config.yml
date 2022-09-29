@@ -23,7 +23,7 @@ timezone:
 
 title: YunHe3                         # the main title
 
-tagline: 这里是YunHe的博客～   # it will display as the sub-title
+tagline: 这里是YunHe的博客   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
     这是通过Chirpy主题配置而成的

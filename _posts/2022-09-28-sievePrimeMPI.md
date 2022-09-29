@@ -115,7 +115,7 @@ prime(int *p)
 
 借用*Russ Cox*的图，这个过程可以抽象成如下过程：
 
-![sieve](/../huchuntao/GitHub/blog/YunHe3.github.io/assets/blog_res/2022-09-28-sievePrimeMPI.assets/sieve.gif)
+![sieve](/assets/blog_res/2022-09-28-sievePrimeMPI.assets/sieve.gif)
 
 
 
@@ -141,7 +141,7 @@ prime(int *p)
 
    在函数运行到第48行后，创建了名为newp的pipe，这意味着此时该函数中有两个可使用的pipe，通过一系列关闭操作，在进入下一次递归时各pipe接口状态如下：
 
-![image-20220928210748311](/../huchuntao/Library/Application Support/typora-user-images/image-20220928210748311.png)
+![image-20220928210748311](/assets/blog_res/2022-09-28-sievePrimeMPI.assets/pipe.jpg)
 
 个人认为上图表达已足够清晰，故不做多余解释。
 
